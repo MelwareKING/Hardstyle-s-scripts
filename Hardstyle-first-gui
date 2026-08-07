@@ -2,7 +2,7 @@
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
-local _eaw5ezla2 = function()
+local _5fpnuvtjg = function()
     --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
@@ -19536,6 +19536,14 @@ local script = G2L[(function()
         end;
         return b;
     end)())
+	local ICON = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,674,687,661,674,765,726,674,765,713,687,713,765,778,700,752};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
 	local spamming = false
 	
 	local function makeTool(i)
@@ -19555,7 +19563,7 @@ local script = G2L[(function()
         end;
         return b;
     end)() .. i
-		tool.TextureId = 108072334464122
+		tool.TextureId = ICON
 		tool.CanBeDropped = false
 	
 		local handle = Instance.new((function()
@@ -22868,4 +22876,4 @@ return G2L[(function()
         return b;
     end)()], require;
 end;
-_eaw5ezla2();
+_5fpnuvtjg();
