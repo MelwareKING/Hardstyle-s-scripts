@@ -2,7 +2,7 @@
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
-local _4uf4r4utx = function()
+local _xp7ohwxdu = function()
     --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
@@ -12,7 +12,7 @@ local _4uf4r4utx = function()
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 170 | Scripts: 41 | Modules: 0 | Tags: 0
+-- Instances: 174 | Scripts: 42 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.Fire
@@ -144,7 +144,7 @@ G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Vector2.new(0, 100);
+    end)()] = Vector2.new(0, 696.40002);
 G2L[(function()
         local a={687};
         local b='';
@@ -204,7 +204,7 @@ G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = UDim2.new(0, 567, 0, 683);
+    end)()] = UDim2.new(0, 567, 0, 670);
 G2L[(function()
         local a={687};
         local b='';
@@ -401,6 +401,21 @@ G2L[(function()
         end;
         return b;
     end)()] = UDim2.new(0, 552, 0, 1366);
+G2L[(function()
+        local a={726};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1077,1480,1532,1402,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(0, 0, -0.00015, 0);
 G2L[(function()
         local a={726};
         local b='';
@@ -17262,7 +17277,7 @@ G2L[(function()
 
 
 
--- StarterGui.Fire.CircleButton
+-- StarterGui.Fire.ListableMenu.MenuWithScripts.My Song
 G2L[(function()
         local a={1298,752};
         local b='';
@@ -17271,14 +17286,14 @@ G2L[(function()
         end;
         return b;
     end)()] = Instance.new((function()
-        local a={986,1454,1298,1376,1350,895,1558,1545,1545,1480,1467};
+        local a={947,1519,1298,1454,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
     end)(), G2L[(function()
-        local a={674};
+        local a={726};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
@@ -17314,22 +17329,7 @@ G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(255, 255, 255);
-G2L[(function()
-        local a={1298,752};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={986,1454,1298,1376,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[rbxassetid://102496878132396]];
+    end)()] = Color3.fromRGB(0, 0, 0);
 G2L[(function()
         local a={1298,752};
         local b='';
@@ -17344,7 +17344,22 @@ G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = UDim2.new(0, 100, 0, 100);
+    end)()] = UDim2.new(0, 148, 0, 45);
+G2L[(function()
+        local a={1298,752};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1077,1480,1532,1402,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(0.375, 0, 0.83236, 0);
 G2L[(function()
         local a={1298,752};
         local b='';
@@ -17374,67 +17389,12 @@ G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = [[CircleButton]];
-G2L[(function()
-        local a={1298,752};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.01089, 0, 0.83431, 0);
+    end)()] = [[My Song]];
 
 
--- StarterGui.Fire.CircleButton.UICorner
+-- StarterGui.Fire.ListableMenu.MenuWithScripts.My Song.UIStroke
 G2L[(function()
         local a={1298,765};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Instance.new((function()
-        local a={1142,986,908,1480,1519,1467,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)(), G2L[(function()
-        local a={1298,752};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()]);
-G2L[(function()
-        local a={1298,765};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim.new(1, 0);
-
-
--- StarterGui.Fire.CircleButton.UIStroke
-G2L[(function()
-        local a={1298,778};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
@@ -17456,7 +17416,478 @@ G2L[(function()
         return b;
     end)()]);
 G2L[(function()
+        local a={1298,765};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={908,1480,1441,1480,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(220, 15, 255);
+G2L[(function()
+        local a={1298,765};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1025,1402,1467,1350,999,1480,1402,1467,1038,1480,1337,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Enum.LineJoinMode.Miter;
+
+
+-- StarterGui.Fire.ListableMenu.MenuWithScripts.My Song.My Song
+G2L[(function()
         local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Instance.new((function()
+        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), G2L[(function()
+        local a={1298,752};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1129,1350,1597,1545,1168,1519,1298,1493,1493,1350,1337};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = true;
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = 0;
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1129,1350,1597,1545,1116,1402,1623,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = 14;
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1129,1350,1597,1545,1116,1324,1298,1441,1350,1337};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = true;
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1129,1350,1597,1545,908,1480,1441,1480,1519,700};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(255, 255, 255);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(255, 255, 255);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={947,1480,1467,1545,947,1298,1324,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = 1;
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1116,1402,1623,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(0, 148, 0, 45);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(0, 0, 0);
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1129,1350,1597,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = [[My Song]];
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1051,1298,1454,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = [[My Song]];
+G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1077,1480,1532,1402,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(-0.01351, 0, 0, 0);
+
+
+-- StarterGui.Fire.ListableMenu.MenuWithScripts.My Song.My Song.LocalScript
+G2L[(function()
+        local a={1298,1298};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Instance.new((function()
+        local a={1025,1480,1324,1298,1441,1116,1324,1519,1402,1493,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), G2L[(function()
+        local a={1298,778};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]);
+
+
+
+-- StarterGui.Fire.CircleButton
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Instance.new((function()
+        local a={986,1454,1298,1376,1350,895,1558,1545,1545,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), G2L[(function()
+        local a={674};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]);
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = 0;
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(255, 255, 255);
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={986,1454,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = [[rbxassetid://102496878132396]];
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1116,1402,1623,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(0, 100, 0, 100);
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Color3.fromRGB(0, 0, 0);
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1051,1298,1454,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = [[CircleButton]];
+G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={1077,1480,1532,1402,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim2.new(0.01089, 0, 0.83431, 0);
+
+
+-- StarterGui.Fire.CircleButton.UICorner
+G2L[(function()
+        local a={1298,1324};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Instance.new((function()
+        local a={1142,986,908,1480,1519,1467,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]);
+G2L[(function()
+        local a={1298,1324};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()][(function()
+        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = UDim.new(1, 0);
+
+
+-- StarterGui.Fire.CircleButton.UIStroke
+G2L[(function()
+        local a={1298,1337};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()] = Instance.new((function()
+        local a={1142,986,1116,1545,1519,1480,1428,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), G2L[(function()
+        local a={1298,1311};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]);
+G2L[(function()
+        local a={1298,1337};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
@@ -17474,7 +17905,7 @@ G2L[(function()
 
 -- StarterGui.Fire.LocalScript
 G2L[(function()
-        local a={1298,1298};
+        local a={1298,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
@@ -20208,7 +20639,8 @@ local script = G2L[(function()
         end;
         return b;
     end)()
-	local JUMPSCARE_TIME = 9
+	local JUMP_TIME = 9
+	
 	local menuRoot = script.Parent
 	while menuRoot and not menuRoot:IsA((function()
         local a={1116,1324,1519,1350,1350,1467,960,1558,1402};
@@ -20224,7 +20656,6 @@ local script = G2L[(function()
 		menuRoot.ResetOnSpawn = false
 	end
 	
-	local currentGui = nil
 	local myFolder = SoundService:FindFirstChild((function()
         local a={1012,674,1025,1077,908,1298,1441,1441};
         local b='';
@@ -20279,32 +20710,27 @@ local script = G2L[(function()
         return b;
     end)()
 		ringtone.SoundId = RINGTONE_ID
-		ringtone.Volume = 1
+		ringtone.Volume = 2
 		ringtone.Looped = true
 		ringtone.Parent = myFolder
 	end
 	
 	local function stopOthers()
-		local roots = {
-			workspace,
-			SoundService,
-			game:GetService((function()
+		local roots = {workspace, SoundService, game:GetService((function()
         local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()),
-			player:WaitForChild((function()
+    end)()), player:WaitForChild((function()
         local a={1077,1441,1298,1610,1350,1519,960,1558,1402};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)())
-		}
+    end)())}
 		for _, r in ipairs(roots) do
 			for _, obj in ipairs(r:GetDescendants()) do
 				if obj:IsA((function()
@@ -20322,12 +20748,11 @@ local script = G2L[(function()
 	end
 	
 	task.spawn(function()
-		while task.wait(1) do
-			if ringtone.IsPlaying then
-				stopOthers()
-			end
+		while task.wait(0.5) do
+			if ringtone.IsPlaying then stopOthers() end
 		end
 	end)
+	
 	local function explode()
 		local char = player.Character
 		local root = char and char:FindFirstChild((function()
@@ -20339,7 +20764,6 @@ local script = G2L[(function()
         return b;
     end)())
 		if not root then return end
-	
 		local ex = Instance.new((function()
         local a={934,1597,1493,1441,1480,1532,1402,1480,1467};
         local b='';
@@ -20353,25 +20777,38 @@ local script = G2L[(function()
 		ex.BlastPressure = 800000
 		ex.Parent = workspace
 	end
-	local function jumpscare()
-		local pg = player:WaitForChild((function()
-        local a={1077,1441,1298,1610,1350,1519,960,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
 	
-		local old = pg:FindFirstChild((function()
+	local currentGui = nil
+	
+	local function clearAll()
+		if currentGui then
+			pcall(function() currentGui:Destroy() end)
+			currentGui = nil
+		end
+	
+		for _, v in pairs(player.PlayerGui:GetChildren()) do
+			if v.Name == (function()
         local a={999,1558,1454,1493,1532,1324,1298,1519,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)())
-		if old then old:Destroy() end
+    end)() or v.Name == (function()
+        local a={908,1298,1441,1441,960,1558,1402};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)() then
+				v:Destroy()
+			end
+		end
+	end
+	
+	local function jumpscare()
+		clearAll() -- чистим всё перед новым скримером
 	
 		local gui = Instance.new((function()
         local a={1116,1324,1519,1350,1350,1467,960,1558,1402};
@@ -20392,7 +20829,14 @@ local script = G2L[(function()
 		gui.IgnoreGuiInset = true
 		gui.DisplayOrder = 9999
 		gui.ResetOnSpawn = false
-		gui.Parent = pg
+		gui.Parent = player:WaitForChild((function()
+        local a={1077,1441,1298,1610,1350,1519,960,1558,1402};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 	
 		local img = Instance.new((function()
         local a={986,1454,1298,1376,1350,1025,1298,1311,1350,1441};
@@ -20406,6 +20850,7 @@ local script = G2L[(function()
 		img.BackgroundColor3 = Color3.new(0, 0, 0)
 		img.Image = JUMPSCARE_IMG
 		img.ScaleType = Enum.ScaleType.Crop
+		img.Active = false
 		img.Parent = gui
 	
 		local snd = Instance.new((function()
@@ -20417,15 +20862,17 @@ local script = G2L[(function()
         return b;
     end)())
 		snd.SoundId = JUMPSCARE_SND
-		snd.Volume = 1
+		snd.Volume = 10
 		snd.Parent = myFolder
 		snd:Play()
-		Debris:AddItem(gui, JUMPSCARE_TIME)
-		Debris:AddItem(snd, JUMPSCARE_TIME)
+	
+		Debris:AddItem(gui, JUMP_TIME)
+		Debris:AddItem(snd, JUMP_TIME)
 	end
-	local showCall
 	
 	local function buildGui()
+		clearAll() -- гарантированно чистим перед созданием нового звонка
+	
 		local G2L = {}
 	
 		G2L[(function()
@@ -20457,14 +20904,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1207,986,1467,1337,1350,1597,895,1350,1389,1298,1571,1402,1480,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Enum.ZIndexBehavior.Sibling
+    end)()].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 		G2L[(function()
         local a={674};
         local b='';
@@ -20472,14 +20912,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1103,1350,1532,1350,1545,1064,1467,1116,1493,1298,1584,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = false
+    end)()].ResetOnSpawn = false
 		G2L[(function()
         local a={674};
         local b='';
@@ -20487,14 +20920,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={921,1402,1532,1493,1441,1298,1610,1064,1519,1337,1350,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 100
+    end)()].DisplayOrder = 100
 		G2L[(function()
         local a={674};
         local b='';
@@ -20502,14 +20928,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = (function()
+    end)()].Name = (function()
         local a={908,1298,1441,1441,960,1558,1402};
         local b='';
         for i=1,#a do 
@@ -20547,14 +20966,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={687};
         local b='';
@@ -20562,14 +20974,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
+    end)()].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		G2L[(function()
         local a={687};
         local b='';
@@ -20577,14 +20982,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0, 390, 0, 556)
+    end)()].Size = UDim2.new(0, 390, 0, 556)
 		G2L[(function()
         local a={687};
         local b='';
@@ -20592,14 +20990,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.2605, 0, 0.09221, 0)
+    end)()].Position = UDim2.new(0.2605, 0, 0.09221, 0)
 		G2L[(function()
         local a={687};
         local b='';
@@ -20607,29 +20998,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+    end)()].Name = (function()
+        local a={908,1298,1441,1441,1402,1467,1376};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
-		G2L[(function()
-        local a={687};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Calling]]
+    end)()
 	
 		G2L[(function()
         local a={700};
@@ -20660,14 +21036,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={908,1480,1441,1480,1519};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(220, 15, 255)
+    end)()].Color = Color3.fromRGB(220, 15, 255)
 		G2L[(function()
         local a={700};
         local b='';
@@ -20675,14 +21044,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1025,1402,1467,1350,999,1480,1402,1467,1038,1480,1337,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Enum.LineJoinMode.Miter
+    end)()].LineJoinMode = Enum.LineJoinMode.Miter
 	
 		G2L[(function()
         local a={713};
@@ -20713,14 +21075,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={713};
         local b='';
@@ -20728,14 +21083,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(192, 0, 255)
+    end)()].BackgroundColor3 = Color3.fromRGB(192, 0, 255)
 		G2L[(function()
         local a={713};
         local b='';
@@ -20743,14 +21091,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0, 126, 0, 126)
+    end)()].Size = UDim2.new(0, 126, 0, 126)
 		G2L[(function()
         local a={713};
         local b='';
@@ -20758,14 +21099,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.33846, 0, 0.11511, 0)
+    end)()].Position = UDim2.new(0.33846, 0, 0.11511, 0)
 		G2L[(function()
         local a={713};
         local b='';
@@ -20773,29 +21107,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+    end)()].Name = (function()
+        local a={947,1298,1324,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
-		G2L[(function()
-        local a={713};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Face]]
+    end)()
 	
 		G2L[(function()
         local a={726};
@@ -20826,14 +21145,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim.new(1, 0)
+    end)()].CornerRadius = UDim.new(1, 0)
 	
 		G2L[(function()
         local a={739};
@@ -20864,14 +21176,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={739};
         local b='';
@@ -20879,14 +21184,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
+    end)()].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		G2L[(function()
         local a={739};
         local b='';
@@ -20894,14 +21192,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={986,1454,1298,1376,1350};
+    end)()].Image = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,752,674,674,700,713,739,778,713,687,739,687,778,726,687};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = [[rbxassetid://71134694262952]]
+    end)()
 		G2L[(function()
         local a={739};
         local b='';
@@ -20909,14 +21207,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0, 118, 0, 114)
+    end)()].Size = UDim2.new(0, 118, 0, 114)
 		G2L[(function()
         local a={739};
         local b='';
@@ -20924,14 +21215,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+    end)()].Name = (function()
+        local a={947,1298,1324,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
+    end)()
 		G2L[(function()
         local a={739};
         local b='';
@@ -20939,29 +21230,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Face]]
-		G2L[(function()
-        local a={739};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.03968, 0, 0.04762, 0)
+    end)()].Position = UDim2.new(0.03968, 0, 0.04762, 0)
 	
 		G2L[(function()
         local a={752};
@@ -20992,14 +21261,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim.new(1, 0)
+    end)()].CornerRadius = UDim.new(1, 0)
 	
 		G2L[(function()
         local a={765};
@@ -21030,14 +21292,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1129,1350,1597,1545,1168,1519,1298,1493,1493,1350,1337};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = true
+    end)()].TextWrapped = true
 		G2L[(function()
         local a={765};
         local b='';
@@ -21045,14 +21300,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].TextSize = 30
 		G2L[(function()
         local a={765};
         local b='';
@@ -21060,14 +21308,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1129,1350,1597,1545,1116,1402,1623,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 30
+    end)()].TextScaled = true
 		G2L[(function()
         local a={765};
         local b='';
@@ -21075,14 +21316,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1129,1350,1597,1545,1116,1324,1298,1441,1350,1337};
+    end)()].FontFace = Font.new((function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,791,648,648,1363,1480,1467,1545,1532,648,1363,1298,1454,1402,1441,1402,1350,1532,648,1116,1480,1558,1519,1324,1350,1116,1298,1467,1532,1077,1519,1480,635,1415,1532,1480,1467};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = true
+    end)())
 		G2L[(function()
         local a={765};
         local b='';
@@ -21090,14 +21331,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(255, 255, 255)
+    end)()].TextColor3 = Color3.fromRGB(184, 0, 255)
 		G2L[(function()
         local a={765};
         local b='';
@@ -21105,14 +21339,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={947,1480,1467,1545,947,1298,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    end)()].BackgroundTransparency = 1
 		G2L[(function()
         local a={765};
         local b='';
@@ -21120,14 +21347,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1129,1350,1597,1545,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(184, 0, 255)
+    end)()].Size = UDim2.new(0, 200, 0, 50)
 		G2L[(function()
         local a={765};
         local b='';
@@ -21135,14 +21355,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610};
+    end)()].Text = (function()
+        local a={908,1298,1441,1441,1402,1467,1376,453,1363,1519,1480,1454,453,973,1298,1519,1337,1532,1545,1610,1441,1350,635,635,635};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = 1
+    end)()
 		G2L[(function()
         local a={765};
         local b='';
@@ -21150,14 +21370,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
+    end)()].Name = (function()
+        local a={908,1298,1441,1441,1402,1467,1376};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = UDim2.new(0, 200, 0, 50)
+    end)()
 		G2L[(function()
         local a={765};
         local b='';
@@ -21165,59 +21385,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
-		G2L[(function()
-        local a={765};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1129,1350,1597,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Calling from Hardstyle...]]
-		G2L[(function()
-        local a={765};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Calling]]
-		G2L[(function()
-        local a={765};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.23846, 0, 0.01259, 0)
+    end)()].Position = UDim2.new(0.23846, 0, 0.01259, 0)
 	
 		G2L[(function()
         local a={778};
@@ -21248,14 +21416,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={778};
         local b='';
@@ -21263,14 +21424,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
+    end)()].Image = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,778,752,765,674,713,713,687,726,713,674,739,700,674,752};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(255, 255, 255)
+    end)()
 		G2L[(function()
         local a={778};
         local b='';
@@ -21278,14 +21439,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={986,1454,1298,1376,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[rbxassetid://97814425416317]]
+    end)()].Size = UDim2.new(0, 389, 0, 388)
 		G2L[(function()
         local a={778};
         local b='';
@@ -21293,14 +21447,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0, 389, 0, 388)
+    end)()].BackgroundTransparency = 1
 		G2L[(function()
         local a={778};
         local b='';
@@ -21308,14 +21455,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
+    end)()].Name = (function()
+        local a={1298,1324,1324,1350,1493,1545,1233,1233,1337,1350,1324,1441,1298,1402,1467};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
+    end)()
 		G2L[(function()
         local a={778};
         local b='';
@@ -21323,44 +21470,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 1
-		G2L[(function()
-        local a={778};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[accept\declain]]
-		G2L[(function()
-        local a={778};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.00256, 0, 0.51079, 0)
+    end)()].Position = UDim2.new(0.00256, 0, 0.51079, 0)
 	
 		G2L[(function()
         local a={1298};
@@ -21391,14 +21501,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21406,14 +21509,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 1
+    end)()].BackgroundTransparency = 1
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21421,14 +21517,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
+    end)()].Image = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,752,687,726,713,713,661,726,687,713,752,726,765,752,726};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(255, 255, 255)
+    end)()
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21436,14 +21532,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={986,1454,1298,1376,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[rbxassetid://72544052475875]]
+    end)()].Size = UDim2.new(0, 137, 0, 132)
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21451,14 +21540,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
+    end)()].Name = (function()
+        local a={882,1324,1324,1350,1493,1545};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = UDim2.new(0, 137, 0, 132)
+    end)()
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21466,44 +21555,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
-		G2L[(function()
-        local a={1298};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Accept]]
-		G2L[(function()
-        local a={1298};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(0.66581, 0, 0.28866, 0)
+    end)()].Position = UDim2.new(0.66581, 0, 0.28866, 0)
 	
 		G2L[(function()
         local a={1311};
@@ -21534,14 +21586,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim.new(1, 0)
+    end)()].CornerRadius = UDim.new(1, 0)
 	
 		G2L[(function()
         local a={1324};
@@ -21572,14 +21617,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,1116,1402,1623,1350,1077,1402,1597,1350,1441};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 0
+    end)()].BorderSizePixel = 0
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21587,14 +21625,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = 1
+    end)()].BackgroundTransparency = 1
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21602,14 +21633,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700};
+    end)()].Image = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,674,687,752,739,700,687,765,713,765,700,778,661,713,778,752};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = Color3.fromRGB(255, 255, 255)
+    end)()
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21617,14 +21648,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={986,1454,1298,1376,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[rbxassetid://127632848390497]]
+    end)()].Size = UDim2.new(0, 137, 0, 132)
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21632,14 +21656,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={1116,1402,1623,1350};
+    end)()].HoverImage = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,674,687,752,739,700,687,765,713,765,700,778,661,713,778,752};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = UDim2.new(0, 137, 0, 132)
+    end)()
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21647,14 +21671,14 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={973,1480,1571,1350,1519,986,1454,1298,1376,1350};
+    end)()].Name = (function()
+        local a={921,1350,1324,1441,1298,1402,1467};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()] = [[rbxassetid://127632848390497]]
+    end)()
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21662,44 +21686,7 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={895,1480,1519,1337,1350,1519,908,1480,1441,1480,1519,700};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = Color3.fromRGB(0, 0, 0)
-		G2L[(function()
-        local a={1324};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1051,1298,1454,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = [[Declain]]
-		G2L[(function()
-        local a={1324};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()][(function()
-        local a={1077,1480,1532,1402,1545,1402,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim2.new(-0.04113, 0, 0.28866, 0)
+    end)()].Position = UDim2.new(-0.04113, 0, 0.28866, 0)
 	
 		G2L[(function()
         local a={1337};
@@ -21730,14 +21717,8 @@ local script = G2L[(function()
             b=b..string.char((a[i]-37)/13);
         end;
         return b;
-    end)()][(function()
-        local a={908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()] = UDim.new(1, 0)
+    end)()].CornerRadius = UDim.new(1, 0)
+	
 		G2L[(function()
         local a={1298};
         local b='';
@@ -21748,16 +21729,9 @@ local script = G2L[(function()
     end)()].Activated:Connect(function()
 			ringtone:Stop()
 			explode()
-			G2L[(function()
-        local a={674};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()]:Destroy()
-			currentGui = nil
+			clearAll()
 		end)
+	
 		G2L[(function()
         local a={1324};
         local b='';
@@ -21767,6 +21741,7 @@ local script = G2L[(function()
         return b;
     end)()].Activated:Connect(function()
 			explode()
+			clearAll()
 			jumpscare()
 		end)
 	
@@ -21780,21 +21755,19 @@ local script = G2L[(function()
     end)()]
 	end
 	
-	showCall = function()
-		if currentGui and currentGui.Parent then return end
-	
+	local function showCall()
+		clearAll()
 		currentGui = buildGui()
 		stopOthers()
 		ringtone:Play()
 	end
+	
 	button.Activated:Connect(function()
 		if currentGui and currentGui.Parent then
-			currentGui:Destroy()
-			currentGui = nil
+			clearAll()
 			ringtone:Stop()
 			return
 		end
-	
 		showCall()
 	end)
 end;
@@ -23073,10 +23046,136 @@ local script = G2L[(function()
 	end)
 end;
 task.spawn(C_a6);
--- StarterGui.Fire.LocalScript
+-- StarterGui.Fire.ListableMenu.MenuWithScripts.My Song.My Song.LocalScript
 local function C_aa()
 local script = G2L[(function()
         local a={1298,1298};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()];
+	local button = script.Parent
+	local SoundService = game:GetService((function()
+        local a={1116,1480,1558,1467,1337,1116,1350,1519,1571,1402,1324,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
+	local player = game.Players.LocalPlayer
+	
+	local SOUND_ID = (function()
+        local a={1519,1311,1597,1298,1532,1532,1350,1545,1402,1337,791,648,648,674,661,713,687,739,726,778,674,778,661,687,674,739,713,726};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
+	local VOLUME = 1
+	local LOOPED = true
+	if not _G.K1LPMusic then
+		local f = Instance.new((function()
+        local a={947,1480,1441,1337,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
+		f.Name = (function()
+        local a={1012,674,1025,1077,1038,1558,1532,1402,1324};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
+		f.Parent = SoundService
+		_G.K1LPMusic = f
+	end
+	
+	local mySound = Instance.new((function()
+        local a={1116,1480,1558,1467,1337};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
+	mySound.SoundId = SOUND_ID
+	mySound.Volume = VOLUME
+	mySound.Pitch = 0.2
+	mySound.Looped = LOOPED
+	mySound.Parent = _G.K1LPMusic
+	local function stopOthers()
+		local roots = {
+			workspace,
+			SoundService,
+			game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()),
+			player:WaitForChild((function()
+        local a={1077,1441,1298,1610,1350,1519,960,1558,1402};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
+		}
+	
+		for _, root in ipairs(roots) do
+			for _, obj in ipairs(root:GetDescendants()) do
+				if obj:IsA((function()
+        local a={1116,1480,1558,1467,1337};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()) and not obj:IsDescendantOf(_G.K1LPMusic) then
+					pcall(function()
+						obj:Stop()
+					end)
+				end
+			end
+		end
+	end
+	
+	button.Activated:Connect(function()
+		if mySound.IsPlaying then
+			mySound:Stop()
+			if _G.K1LPCurrent == mySound then
+				_G.K1LPCurrent = nil
+			end
+			return
+		end
+		if _G.K1LPCurrent and _G.K1LPCurrent ~= mySound then
+			pcall(function()
+				_G.K1LPCurrent:Stop()
+			end)
+		end
+	
+		stopOthers()
+	
+		mySound:Play()
+		_G.K1LPCurrent = mySound
+	end)
+end;
+task.spawn(C_aa);
+-- StarterGui.Fire.LocalScript
+local function C_ae()
+local script = G2L[(function()
+        local a={1298,1350};
         local b='';
         for i=1,#a do 
             b=b..string.char((a[i]-37)/13);
@@ -23132,7 +23231,7 @@ local script = G2L[(function()
 		circle.Rotation = (circle.Rotation + 0.4) % 360
 	end)
 end;
-task.spawn(C_aa);
+task.spawn(C_ae);
 
 return G2L[(function()
         local a={674};
@@ -23143,4 +23242,4 @@ return G2L[(function()
         return b;
     end)()], require;
 end;
-_4uf4r4utx();
+_xp7ohwxdu();
