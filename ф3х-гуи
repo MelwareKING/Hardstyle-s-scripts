@@ -3391,6 +3391,9 @@ task.spawn(C_5f);
 -- StarterGui.ScreenGui.Main.ScriptPage1.Frame.TextButton.LocalScript
 local function C_63()
 local script = G2L["63"];
+	local button = script.parent
+	
+	button.MouseButton1Click:Connect(function()
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local Players = game:GetService("Players")
 	
