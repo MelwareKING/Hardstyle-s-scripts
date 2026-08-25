@@ -2348,7 +2348,7 @@ local script = G2L["f"];
 				end
 			end 
 		end
-		spam("70945031713249")
+		spam("115498932008220")
 	end)
 end;
 task.spawn(C_f);
@@ -2609,7 +2609,7 @@ local script = G2L["13"];
 			end
 		end
 	end
-		Sky("110498475202822")
+		Sky("70945031713249")
 	end)
 end;
 task.spawn(C_13);
@@ -2739,7 +2739,7 @@ local script = G2L["27"];
 					end
 				end 
 			end
-			spam("86049235894387")
+		spam("110498475202822")
 	end)
 end;
 task.spawn(C_27);
